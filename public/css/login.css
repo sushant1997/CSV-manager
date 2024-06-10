@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.login-container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 300px;
+}
+
+input,
+button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error-messages {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.google-login-button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 84%;
+    background: #ea4335;
+    /* Google Red */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.google-login-button:hover {
+    background: #d82b1f;
+    /* Darker Google Red */
+}
